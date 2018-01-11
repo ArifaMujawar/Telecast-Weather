@@ -1,0 +1,45 @@
+
+#box{
+ margin:3em;
+ background-color: rgba(255,255,255,0.3);
+   border-radius:15px;
+  padding: 3em;
+  padding-bottom:2em;
+  margin-top:20px;
+ 
+}
+h2{
+  font-weight:bold;
+  
+  align:center;
+}
+.myBackground{
+ background:url("https://ak5.picdn.net/shutterstock/videos/710365/thumb/1.jpg?i10c=img.resize(height:72)" )no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
+}
+
+
+
+#weather,#temperature,#mic,#location,#country,#date{
+  
+  font-size:1.5em;
+}
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+}
+#temperature{
+  font-size:2em;
+}
+button{
+  margin:4px;
+  padding:2px;
+}
